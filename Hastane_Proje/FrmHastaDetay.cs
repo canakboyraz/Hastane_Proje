@@ -57,7 +57,7 @@ namespace Hastane_Proje
         }
 
         // Branş seçtikten sonra combobox'a o branşdaki doktorları ekledik
-        private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e)
+        private void CmbBrans_SelectedIndexChanged(object sender, EventArgs e) 
         {
             Txtid.Text = "";
             CmbDoktor.Text = "";
